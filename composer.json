@@ -17,5 +17,9 @@
     }
   ],
   "minimum-stability": "stable",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "post-install-cmd": "php installTemplate.php",
+    "post-update-cmd": "php installTemplate.php"
+  }
 }
