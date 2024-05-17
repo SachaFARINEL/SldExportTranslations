@@ -22,13 +22,13 @@ class TemplateInstaller
     private function getModuleDirectory(): bool|string
     {
         $currentDirectory = realpath(dirname(__FILE__));
-        $parentDirectory = basename(dirname($currentDirectory));
+        $parts = explode('/', $currentDirectory);
 
-        if ($parentDirectory !== 'modules') {
-            return false;
-        }
+        $moduleIndex = array_search('modules', $parts) + 1;
 
-        return $currentDirectory;
+        $desiredPathParts = array_slice($parts, 0, $moduleIndex + 1);
+
+        return implode('/', $desiredPathParts);
     }
 
     public function installTemplate(): void

@@ -17,9 +17,5 @@
     }
   ],
   "minimum-stability": "dev",
-  "license": "proprietary",
-  "scripts": {
-    "post-install-cmd": "php installTemplate.php",
-    "post-update-cmd": "php installTemplate.php"
-  }
+  "license": "proprietary"
 }
