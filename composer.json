@@ -16,8 +16,7 @@
       "email": "sacha.farinel@groupe-soledis.com"
     }
   ],
-  "minimum-stability": "stable",
-  "license": "MIT",
+  "license": "proprietary",
   "scripts": {
     "post-install-cmd": "php installTemplate.php",
     "post-update-cmd": "php installTemplate.php"
