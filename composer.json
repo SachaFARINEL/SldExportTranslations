@@ -1,0 +1,21 @@
+{
+  "name": "soledis/sldexporttranslations",
+  "description": "Package for exporting translations directly into the module",
+  "type": "library",
+  "require": {
+    "php": ">=8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Soledis\\Packages\\SldExportTranslations": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Sacha FARINEL",
+      "email": "sacha.farinel@groupe-soledis.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "license": "MIT"
+}
