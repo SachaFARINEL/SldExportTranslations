@@ -1,0 +1,7 @@
+imports:
+  - { resource: ../common.yml }
+
+services:
+  soledis.package.sldexporttranslation.controller.export_translations:
+    class: 'Soledis\Packages\SldExportTranslations\Controller\ExportTranslationsController'
+    public: true

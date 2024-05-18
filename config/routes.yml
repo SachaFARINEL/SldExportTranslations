@@ -1,0 +1,5 @@
+export_translations:
+  path: export-translations
+  methods: [GET]
+  defaults:
+    _controller: 'Soledis\Packages\SldExportTranslations\Controller\ExportTranslationsController::exportAction'
