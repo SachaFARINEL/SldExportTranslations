@@ -7,6 +7,6 @@ trait ExportTranslationsTrait
 {
     public function hookDisplayModuleConfigureExtraButtons(): string
     {
-        return $this->fetch("../Template/configuration-extra-buttons.tpl");
+        return $this->fetch("@Modules/SldExportTranslations/Template/configuration-extra-buttons.tpl");
     }
 }
