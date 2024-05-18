@@ -7,7 +7,7 @@ use Symfony\Component\HttpFoundation\Response;
 
 class ExportTranslationsController extends FrameworkBundleAdminController
 {
-    public function exportAction(): Response
+    public function exportTranslationsAction(): Response
     {
         return new Response('Traductions exportées avec succès !');
     }
