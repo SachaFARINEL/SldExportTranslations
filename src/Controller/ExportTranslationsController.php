@@ -3,7 +3,7 @@
 namespace Soledis\Packages\SldExportTranslations\Controller;
 
 use PrestaShopBundle\Controller\Admin\FrameworkBundleAdminController;
-use http\Client\Response;
+use Symfony\Component\HttpFoundation\Response;
 
 class ExportTranslationsController extends FrameworkBundleAdminController
 {
